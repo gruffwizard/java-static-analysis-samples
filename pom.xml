@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.gruffwizard</groupId>
+    <artifactId>java-static-analysis-samples</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Java Static Analysis Samples</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <maven.compiler.target>1.8</maven.compiler.target>
+       <maven.compiler.source>1.8</maven.compiler.source>
+       <junit.version>5.8.0</junit.version>
+       <antlr4.version>4.9.2</antlr4.version>
+    </properties>
+
+    <licenses>
+    <license>
+      <name>LGPL-2.1+</name>
+      <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+    </license>
+  </licenses>
+
+    <modules>
+        <module>checkstyle</module>
+    </modules>
+
+</project>
